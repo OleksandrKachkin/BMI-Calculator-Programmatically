@@ -106,7 +106,6 @@ extension ResultViewController {
     NSLayoutConstraint.activate([
       adviseLabel.topAnchor.constraint(equalTo: resultLabel.bottomAnchor, constant: 30),
       adviseLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-//      adviseLabel.widthAnchor.constraint(equalToConstant: 400)
       adviseLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
       adviseLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20)
     ])
