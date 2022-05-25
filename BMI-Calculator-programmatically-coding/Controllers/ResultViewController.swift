@@ -88,7 +88,6 @@ class ResultViewController: UIViewController {
 
 
 // MARK: - Set Constraints
-
 extension ResultViewController {
   
   private func setConstraints() {
@@ -125,5 +124,3 @@ extension ResultViewController {
     ])
   }
 }
-
-
