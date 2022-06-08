@@ -50,10 +50,7 @@ extension MainViewController: MainViewDelegate {
     
     let resultVC = ResultViewController()
     
-    resultVC.bmiValue = calculatorBrain.getBMIValue()
-    resultVC.advise = calculatorBrain.getAdvice()
-    resultVC.color = calculatorBrain.getColor()
-    resultVC.image = calculatorBrain.getImage()
+    resultVC.configure(backgroundColor: calculatorBrain.getColor(), resultLabel: calculatorBrain.getBMIValue(), adviseLabel: calculatorBrain.getAdvice(), adviseImage: calculatorBrain.getImage())
     
     resultVC.modalTransitionStyle = .coverVertical
     self.present(resultVC, animated: true, completion: nil)
